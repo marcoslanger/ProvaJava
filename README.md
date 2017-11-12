@@ -5,6 +5,8 @@ Projeto GerenciarCampanhas com o codigo da resolução das questões 1 e 2. <br>
 Projeto LocalizarVogal com o codigo fonte da resolução da questão 3.
 
 
+<b>Resposta da Questão 5:</b>
+
 DEADLOCK
 
 1 - O QUE É?
@@ -24,7 +26,7 @@ Evitar sobreposição de locks através do devido ordenamento de lock durante a 
 Codificar um timeout para threads concorrentes a fim de que uma não espere eternamente pelo fim ou retorno da outra;
 Quando as tecnicas anteriores não for possível ou a arquitetura da aplicação não permitir utilizar SingleThread para execução da aplicação.
 
-Resposta da Questão 5:
+<b>Resposta da Questão 5:</b>
 
 PARALLEL STREAMS
 
