@@ -27,7 +27,7 @@ Codificar um timeout para threads concorrentes a fim de que uma não espere eter
 Quando as tecnicas anteriores não forem possíveis ou a arquitetura da aplicação não permitir utilizar SingleThread para execução da aplicação.
 
 <b>Resposta da Questão 5:</b>
-,br>
+<br>
 PARALLEL STREAMS
 
 1 - O QUE É?
