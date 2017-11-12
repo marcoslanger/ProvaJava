@@ -16,15 +16,15 @@ Outra estado de deadlock, é quando uma thread fica aguardando o fim do processa
 
 2 - CAUSAS
 
-falhas na codificação definindo prioridades para execução nas threads e seu devido controle de estados, podem causar que duas ou mais threads conflitem na solicitação do processamento pela cpu, causando assim o deadlock.
+falhas na codificação definindo prioridades para execução nas threads e seu devido controle de lock, podem causar que duas ou mais threads conflitem na solicitação do processamento pela cpu, causando assim o deadlock.
 
 3 - TRATAMENTOS
 
-As formas usuais de se evitar a ocorrência de deadlock é usar na codificação as seguintes técnicas conforme possíve:
+As formas usuais de se evitar a ocorrência de deadlock é usar na codificação as seguintes técnicas conforme possível:
 
 Evitar sobreposição de locks através do devido ordenamento de lock durante a codificação das threads;
 Codificar um timeout para threads concorrentes a fim de que uma não espere eternamente pelo fim ou retorno da outra;
-Quando as tecnicas anteriores não for possível ou a arquitetura da aplicação não permitir utilizar SingleThread para execução da aplicação.
+Quando as tecnicas anteriores não forem possíveis ou a arquitetura da aplicação não permitir utilizar SingleThread para execução da aplicação.
 
 <b>Resposta da Questão 5:</b>
 
@@ -32,12 +32,7 @@ PARALLEL STREAMS
 
 1 - O QUE É?
 
-A utulização da operação parallelStream no processamento de coleções, pode eventualmente ajudar na performance do processamento da coleção em questão. A operação parallelStream tenta otimizar o processamento utilizando-se melhor dos núcleos disponíveis na CPU de forma paralela.
-
-I have a massive amount of items to process (or the processing of each item takes time and is parallelizable)
-I have a performance problem in the first place
-I don't already run the process in a multi-thread environment (for example: in a web container, if I already have many requests to process in parallel, adding an additional layer of parallelism inside each request could have more negative than positive effects)
-
+A utulização da operação parallelStream no processamento de coleções, pode eventualmente ajudar na performance do processamento da coleção em questão. A operação parallelStream tenta otimizar o processamento utilizando-se melhor dos núcleos disponíveis na CPU de forma a tornar o processamento paralelo.
 Mas a sua utilização nem sempre pode resultar em um aumento de performance, visto que alguns fatores podem influenciar, podendo até tendo impacto negativo na performance.
 
 2 - QUANDO UTILIZAR?
