@@ -36,7 +36,7 @@ PARALLEL STREAMS
 1 - O QUE É?
 
 A utulização da operação parallelStream no processamento de coleções, pode eventualmente ajudar na performance do processamento da coleção em questão. A operação parallelStream tenta otimizar o processamento utilizando-se melhor dos núcleos disponíveis na CPU de forma a tornar o processamento paralelo.<br>
-Mas a sua utilização nem sempre pode resultar em um aumento de performance, visto que alguns fatores podem influenciar, podendo até tendo impacto negativo na performance.
+Mas a sua utilização nem sempre pode resultar em um aumento de performance, visto que alguns fatores podem influenciar, podendo até ter impacto negativo na performance.
 
 2 - QUANDO UTILIZAR?
 
