@@ -40,7 +40,7 @@ Mas a sua utilização nem sempre pode resultar em um aumento de performance, vi
 
 2 - QUANDO UTILIZAR?
 
-Quando existir um problema real de performance em primeira lugar;
+Antes de tudo, somente se existir um problema real de performance;
 
 Quando a coleção possuir uma quantidade massiva de itens a serem tratados e/o processamento de cada item consumir tempo, havará ganho se o processamento for paralelizado;
 
