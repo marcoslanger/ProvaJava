@@ -1,4 +1,4 @@
-# ProvaJava
+# Prova Java
 <b>Codigo Fonte da Prova Java</b>
 
 Projeto GerenciarCampanhas com o codigo da resolução das questões 1 e 2. <br>
