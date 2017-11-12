@@ -5,7 +5,7 @@ Projeto GerenciarCampanhas com o codigo da resolução das questões 1 e 2. <br>
 Projeto LocalizarVogal com o codigo fonte da resolução da questão 3.
 
 <br>
-<b>Resposta da Questão 5:</b>
+<b>Resposta da Questão 4:</b>
 
 DEADLOCK
 
