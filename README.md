@@ -42,8 +42,8 @@ Mas a sua utilização nem sempre pode resultar em um aumento de performance, vi
 
 Antes de tudo, somente se existir um problema real de performance;
 
-Quando a coleção possuir uma quantidade massiva de itens a serem tratados e/o processamento de cada item consumir tempo, havará ganho se o processamento for paralelizado;
+Se a coleção possuir uma quantidade massiva de itens a serem tratados e/o processamento de cada item consumir tempo, havará ganho se o processamento for paralelizado;
 
-Quando o processamento não não estiver sendo executado dentro de um ambiente multi-thread como um container web. Se várias requisições forem feitas para serem processadas em paralelo, a adição de mais uma camada de paralelismo irá ter um impacto negativo na performance.
+Se o processamento não estiver sendo executado dentro de um ambiente multi-thread como um container web. Se várias requisições forem feitas para serem processadas em paralelo, a adição de mais uma camada de paralelismo irá ter um impacto negativo na performance.
 
 
