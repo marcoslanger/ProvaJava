@@ -6,7 +6,8 @@ Projeto LocalizarVogal com o codigo fonte da resolução da questão 3.
 
 <br>
 <b>Resposta da Questão 4:</b>
-<br>
+
+
 DEADLOCK
 
 1 - O QUE É?
@@ -26,8 +27,10 @@ Evitar sobreposição de locks através do devido ordenamento de lock durante a 
 Codificar um timeout para threads concorrentes a fim de que uma não espere eternamente pelo fim ou retorno da outra;
 Quando as tecnicas anteriores não forem possíveis ou a arquitetura da aplicação não permitir utilizar SingleThread para execução da aplicação.
 
+
 <b>Resposta da Questão 5:</b>
-<br>
+
+
 PARALLEL STREAMS
 
 1 - O QUE É?
